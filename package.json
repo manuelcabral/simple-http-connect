@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Simple http server using connect's static()",
   "main": "src/index.js",
+  "bin": "bin/simple-http-connect",
   "scripts": {
     "test": ""
   },
