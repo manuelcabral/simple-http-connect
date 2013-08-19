@@ -1,6 +1,6 @@
 {
   "name": "simple-http-connect",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple http server using connect's static()",
   "main": "src/index.js",
   "bin": "bin/simple-http-connect",
