@@ -1,0 +1,21 @@
+{
+  "name": "simple-http-connect",
+  "version": "0.0.0",
+  "description": "Simple http server using connect's static()",
+  "main": "src/index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:manuelcabral/simple-http-connect.git"
+  },
+  "author": "Manuel Cabral (m.cabral@digisfera.pt)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/manuelcabral/simple-http-connect/issues"
+  },
+  "dependencies": {
+    "connect": "~2.8.5"
+  }
+}

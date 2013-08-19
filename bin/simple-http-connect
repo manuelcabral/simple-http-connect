@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var simpleHttpMime = require('../src/index.js');
+var program = require('commander');
+
+program
+  .option('-p, --port <portNumber>', 'Port number', parseInt)
+  .option('-d, --dir <path>', 'Directory to serve')
+  .parse(process.argv);
+
+simpleHttpMime(program.port, program.dir);
